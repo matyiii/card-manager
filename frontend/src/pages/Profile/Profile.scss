@@ -1,0 +1,12 @@
+.profile {
+	width: 80vw;
+
+	@media screen and (min-width: 900px) {
+		max-width: 520px;
+	}
+
+	.actions {
+		display: flex;
+		justify-content: space-evenly;
+	}
+}

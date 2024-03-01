@@ -1,0 +1,11 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/backend/card_manager_backend/appsettings.json
+/backend/.vs
+/backend/card_manager_backend/Migrations
+/backend/card_manager_backend/bin/Debug/net8.0
+/backend/card_manager_backend/obj
+/backend/card_manager_backend/appsettings.Development.json
+frontend/.env

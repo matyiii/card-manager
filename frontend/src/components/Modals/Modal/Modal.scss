@@ -1,0 +1,27 @@
+.message-modal {
+	position: relative;
+	max-width: 900px;
+	padding: 30px 15px;
+	background-color: #fff;
+	max-height: 85vh;
+	overflow: auto;
+
+	.modal-choices {
+		display: flex;
+		justify-content: space-between;
+	}
+
+	.message-container {
+		margin-bottom: 20px;
+	}
+
+	.errors {
+		.error {
+			margin-bottom: 5px;
+
+			span {
+				color: red;
+			}
+		}
+	}
+}
