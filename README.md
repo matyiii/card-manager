@@ -1,3 +1,10 @@
+## Installation
+1. Clone this repository.
+2. Navigate to the `frontend` folder.
+3. Run `npm install` or `yarn install` to install dependencies.
+4. Navigate to the `backend` folder (if applicable).
+5. Run `dotnet build` to build the backend (if applicable).
+
 ## Configuration
 ### Frontend
 In order to run the frontend application properly, you need to set up an environment variable.
