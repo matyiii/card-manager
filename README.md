@@ -2,8 +2,8 @@
 1. Clone this repository.
 2. Navigate to the `frontend` folder.
 3. Run `npm install` or `yarn install` to install dependencies.
-4. Navigate to the `backend` folder (if applicable).
-5. Run `dotnet build` to build the backend (if applicable).
+4. Navigate to the `backend` folder.
+5. Run `dotnet build` to build the backend.
 
 ## Configuration
 ### Frontend
@@ -33,3 +33,17 @@ In order to run the backend application properly, you need to add an `appsetting
     "Secret": "[your_secret]"
   }
 }
+```
+
+### Dummy Data (Optional)
+If you want to populate your database with dummy data for testing purposes, follow these additional steps:
+1. Ensure you have Entity Framework Core tools installed. If not, you can install it globally by running:
+```
+dotnet tool install --global dotnet-ef
+```
+2. Navigate to the `backend` folder.
+3. Run the following commands to apply migrations and update the database with dummy data:
+```
+dotnet ef migrations add InitialCreate
+dotnet ef database update
+```
